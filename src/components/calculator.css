@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Solway', serif;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+#score {
+  height: 100%;
+  width: 100%;
+  color: white;
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+  justify-content: right;
+}
+
+.calculator {
+  width: 300px;
+  margin: auto auto;
+}
+
+.result-screen {
+  height: 50px;
+}
+
+.button-section {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}

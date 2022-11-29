@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+button {
+  border: none;
+  padding: 10px 20px;
+  background-color: lightgray;
+}
+
+button:active {
+  background-color: grey;
+}
+
+.large {
+  grid-column: 1/3;
+}
+
+.orange {
+  background-color: orange;
+}
