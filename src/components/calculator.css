@@ -12,8 +12,11 @@ body {
   height: 100vh;
 }
 
-#score {
-  height: 100%;
+#total,
+#next,
+#op {
+  font-size: 1.2rem;
+  height: 40%;
   width: 100%;
   color: white;
   background-color: grey;
@@ -23,13 +26,24 @@ body {
   justify-content: right;
 }
 
+#op {
+  height: 20%;
+  font-size: 0.8rem;
+  color: orange;
+}
+
+#next {
+  color: lightgray;
+  font-size: 0.9rem;
+}
+
 .calculator {
   width: 300px;
   margin: auto auto;
 }
 
 .result-screen {
-  height: 50px;
+  height: 70px;
 }
 
 .button-section {
