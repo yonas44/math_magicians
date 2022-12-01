@@ -34,7 +34,7 @@
 
 > Describe your project in 1 or 2 sentences.
 
-**Math Magicians** is a project which is created using create-react-app boiler template. For this project I am trying to build a calculator which will perform mathimatical operations by taking input from a user.
+**Math Magicians** is a project which is created using create-react-app boiler template. For this project I am trying to build a calculator which will perform mathematical operations by taking input from a user.
 
 ## 🛠 Built With <a name="built-with"></a>
 
