@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/math_magicians/static/css/main.92db2bff.css",
-    "main.js": "/math_magicians/static/js/main.a7e9e32b.js",
+    "main.js": "/math_magicians/static/js/main.d13c971a.js",
     "static/js/787.d4ded463.chunk.js": "/math_magicians/static/js/787.d4ded463.chunk.js",
     "static/media/jeswin-thomas-hecib2an4T4-unsplash.jpg": "/math_magicians/static/media/jeswin-thomas-hecib2an4T4-unsplash.1e2b14b087e215324e9b.jpg",
     "index.html": "/math_magicians/index.html",
     "main.92db2bff.css.map": "/math_magicians/static/css/main.92db2bff.css.map",
-    "main.a7e9e32b.js.map": "/math_magicians/static/js/main.a7e9e32b.js.map",
+    "main.d13c971a.js.map": "/math_magicians/static/js/main.d13c971a.js.map",
     "787.d4ded463.chunk.js.map": "/math_magicians/static/js/787.d4ded463.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.92db2bff.css",
-    "static/js/main.a7e9e32b.js"
+    "static/js/main.d13c971a.js"
   ]
 }
