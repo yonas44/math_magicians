@@ -1,5 +1,15 @@
+.App-wrapper {
+  background: url(./assets/jeswin-thomas-hecib2an4T4-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
 .App {
+  backdrop-filter: blur(8px);
   display: flex;
+  flex-direction: column;
   width: 100vw;
   height: 100vh;
 }
