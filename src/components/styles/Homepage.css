@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.title {
+  margin: 20px 0;
+  font-weight: bolder;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    margin: 200px auto;
+  }
+}

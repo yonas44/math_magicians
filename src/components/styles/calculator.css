@@ -12,6 +12,19 @@ body {
   height: 100vh;
 }
 
+.calculator-container {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 auto;
+  height: 80vh;
+}
+
+#slogan {
+  font-size: 32px;
+}
+
 #total,
 #next,
 #op {
@@ -47,6 +60,7 @@ body {
 }
 
 .button-section {
+  background-color: white;
   display: grid;
   gap: 1px;
   grid-template-columns: 1fr 1fr 1fr 1fr;

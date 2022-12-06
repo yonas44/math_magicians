@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.notfound-container {
+  text-align: center;
+}
+
+#notfound-title {
+  color: red;
+  font-size: 62px;
+}
