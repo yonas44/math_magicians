@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link]()
+- [Live Demo Link](https://yonas44.github.io/math_magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -75,9 +75,9 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-* npm
-* Node.js
-* Any code editer (vs code)
+- npm
+- Node.js
+- Any code editer (vs code)
 
 ### Setup
 
@@ -110,8 +110,7 @@ To run the project, execute the following command:
 
 ### Deployment
 
-```npm run deploy``` - Deploys using gh-pages
-
+`npm run deploy` - Deploys using gh-pages
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
