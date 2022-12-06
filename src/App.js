@@ -13,9 +13,9 @@ function App() {
       <div className="App">
         <Navbar />
         <Routes>
-          <Route element={<Calculator />} path="/calculator" />
-          <Route element={<Homepage />} exact path="/" />
-          <Route element={<Quotes />} exact path="/quotes" />
+          <Route element={<Calculator />} path="/math_magicians/calculator" />
+          <Route element={<Homepage />} exact path="/math_magicians/" />
+          <Route element={<Quotes />} exact path="/math_magicians/quotes" />
           <Route element={<NotFound />} exact path="*" />
         </Routes>
         <Footer />

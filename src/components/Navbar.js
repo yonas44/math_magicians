@@ -28,7 +28,11 @@ const Navbar = () => {
         <h1>Math Magicians</h1>
         <ul>
           <li>
-            <Link onClick={() => handleToggle()} className="links" to="/">
+            <Link
+              onClick={() => handleToggle()}
+              className="links"
+              to="/math_magicians/"
+            >
               Home
             </Link>
           </li>
@@ -36,13 +40,17 @@ const Navbar = () => {
             <Link
               onClick={() => handleToggle()}
               className="links"
-              to="/calculator"
+              to="/math_magicians/calculator"
             >
               Calculator
             </Link>
           </li>
           <li>
-            <Link onClick={() => handleToggle()} className="links" to="/quotes">
+            <Link
+              onClick={() => handleToggle()}
+              className="links"
+              to="/math_magicians/quotes"
+            >
               Quotes
             </Link>
           </li>
