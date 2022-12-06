@@ -1,9 +1,13 @@
 import React from 'react';
+import './styles/NotFound.css';
 
 const NotFound = () => (
-  <div style={{ width: '50%', margin: '0 auto' }}>
-    <h2>404</h2>
-    <p>Page not found</p>
+  <div
+    className="notfound-container"
+    style={{ width: '50%', margin: '0 auto' }}
+  >
+    <h2 id="notfound-title">404</h2>
+    <p>_Page not found_</p>
   </div>
 );
 
