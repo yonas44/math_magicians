@@ -7,6 +7,7 @@ import Homepage from '../components/Homepage';
 import App from '../App';
 import NotFound from '../components/NotFound';
 import Quotes from '../components/Quotes';
+import Footer from '../components/Footer';
 
 describe('HomePage component is rendererd', () => {
   test('Component is rendererd', () => {
@@ -94,5 +95,13 @@ describe('Quotes page is rendered', () => {
   test('matches snapshot', () => {
     const tree = renderer.create(<Quotes />).toJSON();
     expect(tree).toMatchSnapshot();
+  });
+});
+
+describe('Footer component is rendererd', () => {
+  test('Component is rendererd', () => {
+    render(<Footer />);
+    const container = screen.getByText(/Copyright/);
+    expect(container).toBeInTheDocument();
   });
 });
