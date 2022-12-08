@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator component is rendererd matches snapshot 1`] = `
+<div
+  className="calculator-container"
+>
+  <p
+    id="slogan"
+  >
+    Let's do some math!
+  </p>
+  <div
+    className="calculator"
+  >
+    <div
+      className="result-screen"
+    >
+      <p
+        data-testid="total"
+        id="total"
+      />
+      <p
+        id="op"
+      />
+      <p
+        id="next"
+      >
+        0
+      </p>
+    </div>
+    <div
+      className="button-section"
+    />
+  </div>
+</div>
+`;
+
+exports[`HomePage component is rendererd matches snapshot 1`] = `
+<div
+  className="container"
+>
+  <h2
+    className="title"
+  >
+    Welcome to our page!
+  </h2>
+  <p
+    className="description"
+  >
+    Up am intention on dependent questions oh elsewhere september. No betrayed pleasure possible jointure we in throwing. And can event rapid any shall woman green. Hope they dear who its bred. Smiling nothing affixed he carried it clothes calling he no. Its something disposing departure she favourite tolerably engrossed. Truth short folly court why she their balls. Excellence put unaffected reasonable mrs introduced conviction she. Nay particular delightful but unpleasant for uncommonly who. He went such dare good mr fact. The small own seven saved man age no offer. Suspicion did mrs nor furniture smallness. Scale whole downs often leave not eat. An expression reasonably cultivated indulgence mr he surrounded instrument. Gentleman eat and consisted are pronounce distrusts.
+  </p>
+</div>
+`;
+
+exports[`Not-found page is rendered matches snapshot 1`] = `
+<div
+  className="notfound-container"
+>
+  <h2
+    id="notfound-title"
+  >
+    404
+  </h2>
+  <p>
+    _Page not found_
+  </p>
+</div>
+`;
+
+exports[`Quotes page is rendered matches snapshot 1`] = `
+<div
+  className="quote-container"
+  data-testid="quotes"
+>
+  <button
+    id="new-quote"
+    onClick={[Function]}
+    type="button"
+  >
+    <svg
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+          "scale": "2",
+        }
+      }
+      viewBox="0 0 24 24"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M0 0h24v24H0z"
+        fill="none"
+      />
+      <path
+        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm.06 17v-2.01H12c-1.28 0-2.56-.49-3.54-1.46a5.006 5.006 0 01-.64-6.29l1.1 1.1c-.71 1.33-.53 3.01.59 4.13.7.7 1.62 1.03 2.54 1.01v-2.14l2.83 2.83L12.06 19zm4.11-4.24l-1.1-1.1c.71-1.33.53-3.01-.59-4.13A3.482 3.482 0 0012 8.5h-.06v2.15L9.11 7.83 11.94 5v2.02c1.3-.02 2.61.45 3.6 1.45 1.7 1.7 1.91 4.35.63 6.29z"
+      />
+    </svg>
+  </button>
+  <p
+    id="quote-content"
+  >
+    '
+    Your quote is being fetched😀
+    '
+  </p>
+  <p
+    id="quote-author"
+  />
+</div>
+`;
