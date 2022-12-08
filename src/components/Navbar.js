@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <>
-      <header>
+      <header data-testid="header">
         <button
           className="nav-button"
           type="submit"
@@ -31,12 +31,8 @@ const Navbar = () => {
         <nav className={`${navbarOpen ? 'open' : ''}`}>
           <h1>Math Magicians</h1>
           <ul>
-            <li>
-              <Link
-                onClick={() => handleToggle()}
-                className="links"
-                to="/math_magicians/"
-              >
+            <li data-testid="home">
+              <Link onClick={() => handleToggle()} className="links" to="/">
                 Home
               </Link>
             </li>
@@ -44,7 +40,7 @@ const Navbar = () => {
               <Link
                 onClick={() => handleToggle()}
                 className="links"
-                to="/math_magicians/calculator"
+                to="/calculator"
               >
                 Calculator
               </Link>
@@ -53,7 +49,7 @@ const Navbar = () => {
               <Link
                 onClick={() => handleToggle()}
                 className="links"
-                to="/math_magicians/quotes"
+                to="/quotes"
               >
                 Quotes
               </Link>

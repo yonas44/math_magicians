@@ -21,7 +21,7 @@ const Quotes = () => {
   }, []);
   return (
     <>
-      <div className="quote-container">
+      <div data-testid="quotes" className="quote-container">
         <button id="new-quote" type="button" onClick={() => fetchQuotes()}>
           <MdChangeCircle style={{ scale: '2' }} />
         </button>

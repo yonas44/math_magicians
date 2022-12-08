@@ -11,10 +11,10 @@ function App() {
     <div className="App-wrapper">
       <div className="App">
         <Routes>
-          <Route element={<Navbar />} path="/math_magicians/">
-            <Route element={<Calculator />} path="/math_magicians/calculator" />
-            <Route element={<Homepage />} exact path="/math_magicians/" />
-            <Route element={<Quotes />} exact path="/math_magicians/quotes" />
+          <Route element={<Navbar />} path="/">
+            <Route element={<Calculator />} path="/calculator" />
+            <Route element={<Homepage />} exact path="/" />
+            <Route element={<Quotes />} exact path="/quotes" />
           </Route>
           <Route element={<NotFound />} exact path="*" />
         </Routes>

@@ -29,7 +29,9 @@ const Calculator = () => {
       <p id="slogan">Let&apos;s do some math!</p>
       <div className="calculator">
         <div className="result-screen">
-          <p id="total">{results.total}</p>
+          <p data-testid="total" id="total">
+            {results.total}
+          </p>
           <p id="op">{results.operation}</p>
           <p id="next">{results.next || 0}</p>
         </div>
