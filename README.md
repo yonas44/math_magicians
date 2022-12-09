@@ -61,7 +61,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://yonas44.github.io/math_magicians/)
+- [Live Demo Link](https://react-math-magicians-yt.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
